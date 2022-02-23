@@ -3,3 +3,7 @@
 // e.g. internationalization => i18n, localization => l10n
 // 
 
+const abbreviate = (input) => {
+    // return (input[0] + (input.length - 2) + input[input.length - 1]);
+    
+}
