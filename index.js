@@ -5,5 +5,9 @@
 
 const abbreviate = (input) => {
     // return (input[0] + (input.length - 2) + input[input.length - 1]);
-    
-}
+    return input.length < 3 ? input : [input[0], input.length - 2, input[input.length-1]].join(''); 
+};
+
+const result = abbreviate("internationalization");
+
+console.log(result);
